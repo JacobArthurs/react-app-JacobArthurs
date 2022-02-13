@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/react-app-JacobArthurs/static/css/main.d1b05096.chunk.css",
-    "main.js": "/react-app-JacobArthurs/static/js/main.aba798f4.chunk.js",
-    "main.js.map": "/react-app-JacobArthurs/static/js/main.aba798f4.chunk.js.map",
-    "runtime-main.js": "/react-app-JacobArthurs/static/js/runtime-main.008e10f0.js",
-    "runtime-main.js.map": "/react-app-JacobArthurs/static/js/runtime-main.008e10f0.js.map",
-    "static/js/2.dd38c2ec.chunk.js": "/react-app-JacobArthurs/static/js/2.dd38c2ec.chunk.js",
-    "static/js/2.dd38c2ec.chunk.js.map": "/react-app-JacobArthurs/static/js/2.dd38c2ec.chunk.js.map",
-    "static/js/3.4c14dc4a.chunk.js": "/react-app-JacobArthurs/static/js/3.4c14dc4a.chunk.js",
-    "static/js/3.4c14dc4a.chunk.js.map": "/react-app-JacobArthurs/static/js/3.4c14dc4a.chunk.js.map",
+    "main.css": "/react-app-JacobArthurs/static/css/main.22f2afb4.chunk.css",
+    "main.js": "/react-app-JacobArthurs/static/js/main.770ffc30.chunk.js",
+    "main.js.map": "/react-app-JacobArthurs/static/js/main.770ffc30.chunk.js.map",
+    "runtime-main.js": "/react-app-JacobArthurs/static/js/runtime-main.860b4fa4.js",
+    "runtime-main.js.map": "/react-app-JacobArthurs/static/js/runtime-main.860b4fa4.js.map",
+    "static/css/2.68a81a89.chunk.css": "/react-app-JacobArthurs/static/css/2.68a81a89.chunk.css",
+    "static/js/2.d7a88a8a.chunk.js": "/react-app-JacobArthurs/static/js/2.d7a88a8a.chunk.js",
+    "static/js/2.d7a88a8a.chunk.js.map": "/react-app-JacobArthurs/static/js/2.d7a88a8a.chunk.js.map",
     "index.html": "/react-app-JacobArthurs/index.html",
-    "precache-manifest.c221591987de0264f5103d0557444fc5.js": "/react-app-JacobArthurs/precache-manifest.c221591987de0264f5103d0557444fc5.js",
+    "precache-manifest.1bae80e9a1ed0d93879cb499d3c02324.js": "/react-app-JacobArthurs/precache-manifest.1bae80e9a1ed0d93879cb499d3c02324.js",
     "service-worker.js": "/react-app-JacobArthurs/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/react-app-JacobArthurs/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.dd38c2ec.chunk.js.LICENSE.txt": "/react-app-JacobArthurs/static/js/2.dd38c2ec.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-app-JacobArthurs/static/media/logo.06e73328.svg"
+    "static/css/2.68a81a89.chunk.css.map": "/react-app-JacobArthurs/static/css/2.68a81a89.chunk.css.map",
+    "static/css/main.22f2afb4.chunk.css.map": "/react-app-JacobArthurs/static/css/main.22f2afb4.chunk.css.map",
+    "static/js/2.d7a88a8a.chunk.js.LICENSE.txt": "/react-app-JacobArthurs/static/js/2.d7a88a8a.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/react-app-JacobArthurs/static/media/JacobArthursCard.6009fbb7.png",
+    "static/media/JacobArthursNav.png": "/react-app-JacobArthurs/static/media/JacobArthursNav.68795bab.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.008e10f0.js",
-    "static/js/2.dd38c2ec.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.aba798f4.chunk.js"
+    "static/js/runtime-main.860b4fa4.js",
+    "static/css/2.68a81a89.chunk.css",
+    "static/js/2.d7a88a8a.chunk.js",
+    "static/css/main.22f2afb4.chunk.css",
+    "static/js/main.770ffc30.chunk.js"
   ]
 }
