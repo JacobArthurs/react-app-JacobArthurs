@@ -1,0 +1,256 @@
+.titleSection {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#Home.row {
+  color: #eee;
+  background-color: #2d3142;
+  display: table;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.businessCard {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+@media (min-width: 850px) {
+  .businessCard {
+    width: 750px;
+    height: 415px;
+  }
+  .frontCard {
+    width: 750px;
+    height: 415px;
+  }
+  .backCard {
+    width: 750px;
+    height: 415px;
+  }
+  .frontCard::before {
+    width: 50px;
+    height: 50px;
+    border-top: 25px solid #6b7c9a;
+    border-bottom: 25px solid #2d3142;
+    border-left: 25px solid #6b7c9a;
+    border-right: 25px solid #2d3142;
+  }
+  .frontCard:hover::before {
+    border-top: 25px solid #53617a;
+    border-bottom: 25px solid #2d3142;
+    border-left: 25px solid #53617a;
+    border-right: 25px solid #2d3142;
+  }
+  .backCard::before {
+    width: 50px;
+    height: 50px;
+    border-top: 25px solid #3e485b;
+    border-bottom: 25px solid #2d3142;
+    border-left: 25px solid #2d3142;
+    border-right: 25px solid #3e485b;
+  }
+  .backCard:hover::before {
+    width: 50px;
+    height: 50px;
+    border-top: 25px solid #313948;
+    border-bottom: 25px solid #2d3142;
+    border-left: 25px solid #2d3142;
+    border-right: 25px solid #313948;
+  }
+  .insideBack {
+    top: 35px;
+    left: 35px;
+    bottom: 35px;
+    right: 35px;
+  }
+  .insideBack ul li a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 849px) {
+  .businessCard {
+    width: 300px;
+    height: 166px;
+  }
+  .frontCard {
+    width: 300px;
+    height: 166px;
+  }
+  .backCard {
+    width: 300px;
+    height: 166px;
+  }
+  .frontCard::before {
+    width: 20px;
+    height: 20px;
+    border-top: 10px solid #6b7c9a;
+    border-bottom: 10px solid #2d3142;
+    border-left: 10px solid #6b7c9a;
+    border-right: 10px solid #2d3142;
+  }
+  .frontCard:hover::before {
+    border-top: 10px solid #53617a;
+    border-bottom: 10px solid #2d3142;
+    border-left: 10px solid #53617a;
+    border-right: 10px solid #2d3142;
+  }
+  .backCard::before {
+    width: 20px;
+    height: 20px;
+    border-top: 10px solid #3e485b;
+    border-bottom: 10px solid #2d3142;
+    border-left: 10px solid #2d3142;
+    border-right: 10px solid #3e485b;
+  }
+  .backCard:hover::before {
+    width: 20px;
+    height: 20px;
+    border-top: 10px solid #313948;
+    border-bottom: 10px solid #2d3142;
+    border-left: 10px solid #2d3142;
+    border-right: 10px solid #313948;
+  }
+  .insideBack {
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+  }
+  .insideBack ul li a {
+    font-size: 0.79635rem;
+  }
+}
+
+.frontCard {
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  background: #4f5d75;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  background-image: url("../../images/JacobArthursCard.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+
+  cursor: pointer;
+  z-index: 2;
+  -webkit-transform: rotateY(5deg) rotateX(5deg);
+  transform: rotateY(5deg) rotateX(5deg);
+  transition: -webkit-transform 2s ease, background 0.2s ease;
+  transition: transform 2s ease, background 0.2s ease;
+}
+
+.frontCard::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  bottom: -1px;
+  right: -1px;
+  z-index: 2;
+}
+
+.frontCard:hover {
+  position: absolute;
+  background-color: #3e485b;
+  -webkit-transform: rotateY(10deg) rotateX(5deg);
+  transform: rotateY(10deg) rotateX(5deg);
+}
+
+.frontCard.flip {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.backCard {
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #3e485b;
+  padding: 100px;
+  -webkit-transform: rotateY(-5deg) rotateX(5deg);
+  transform: rotateY(-5deg) rotateX(5deg);
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+}
+
+.backCard::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  bottom: -1px;
+  left: -1px;
+}
+
+.backCard:hover {
+  position: absolute;
+  background-color: #313948;
+  -webkit-transform: rotateY(-10deg) rotateX(5deg);
+  transform: rotateY(-10deg) rotateX(5deg);
+}
+
+.backCard.flip {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.insideBack {
+  position: absolute;
+  border: 1px solid #bfc0c0;
+  padding: 30px;
+}
+
+.insideBack ul {
+  height: 100%;
+  width: 100%;
+  display: table;
+  list-style: none;
+  padding: 0;
+}
+
+.insideBack ul li {
+  display: table-row;
+  text-align: center;
+}
+
+.insideBack ul li .svg-inline--fa {
+  margin-right: 15px;
+}
+
+.insideBack ul li a {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+}
+
+.insideBack ul li a:hover {
+  filter: drop-shadow(0 0 3px #ef8354) drop-shadow(0 0 1px #ef8354);
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
