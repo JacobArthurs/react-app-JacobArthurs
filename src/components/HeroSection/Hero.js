@@ -3,6 +3,7 @@ import "./Hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import Granim from "react-granim";
 
 const Hero = () => {
   const [flip, setFlip] = React.useState();
@@ -11,6 +12,22 @@ const Hero = () => {
   return (
     <section id="Home" className="row">
       <div className="titleSection">
+        <Granim
+          direction={"diagonal"}
+          isPausedWhenNotInView={true}
+          stateTransitionSpeed={5}
+          states={{
+            "default-state": {
+              gradients: [
+                ["#001219", "#005F73"],
+                ["#0A9396", "#94D2BD"],
+                ["#E9D8A6", "#EE9B00"],
+                ["#CA6702", "#BB3E03"],
+                ["#AE2012", "#9B2226"],
+              ],
+            },
+          }}
+        />
         <div className="businessCard">
           <div
             className={"frontCard " + flipClassName}
@@ -27,21 +44,33 @@ const Hero = () => {
             <div className="insideBack">
               <ul>
                 <li>
-                  <a href="mailto:ArthursJacob01@Gmail.com">
+                  <a
+                    href="mailto:ArthursJacob01@Gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                     ArthursJacob01@Gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/jacobarthurs/">
+                  <a
+                    href="https://www.linkedin.com/in/JacobArthurs/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                    Jacob Arthurs
+                    LinkedIn/JacobArthurs
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/JacobArthurs">
+                  <a
+                    href="https://github.com/JacobArthurs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
-                    Jacob Arthurs
+                    GitHub/JacobArthurs
                   </a>
                 </li>
               </ul>
