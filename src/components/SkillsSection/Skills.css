@@ -1,0 +1,35 @@
+#Skills.row {
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.skillsTitle {
+  display: inline;
+  position: relative;
+  margin-top: 25px !important;
+  width: fit-content !important;
+  font-weight: 501;
+  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-size: 5rem;
+  letter-spacing: -5px;
+  color: #2d3142;
+}
+
+.swiperContainer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#bottomSwiper {
+  margin-top: 150px;
+}
+
+.swiperContainer img {
+  user-select: none;
+}
