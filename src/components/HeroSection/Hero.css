@@ -93,7 +93,7 @@
   background-position-x: 0%;
   background-position-y: 0%;
   background-size: auto;
-  background-image: url("../../images/JacobArthursCard8.png");
+  background-image: url("../../images/card/JacobArthursCard.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,7 +137,7 @@
   background-position-x: 0%;
   background-position-y: 0%;
   background-size: auto;
-  background-image: url("../../images/JacobArthursCardBack.png");
+  background-image: url("../../images/card/JacobArthursCardBack.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -206,7 +206,7 @@
 }
 
 .insideBack ul li a:hover {
-  filter: drop-shadow(0 0 3px #ef8354);
+  filter: drop-shadow(0 0 3px #bfc0c0);
   text-decoration: underline;
   transition: 0.2s ease;
 }

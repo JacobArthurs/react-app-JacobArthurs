@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
-import logo from "../../images/JacobArthursNav.png";
+import logo from "../../images/nav/JacobArthursNav.png";
 
 class Navbar extends Component {
   render() {
@@ -21,7 +21,7 @@ class Navbar extends Component {
             <a href="#Home">Home</a>
           </li>
           <li className="Navbar-items">
-            <a href="#Portfolio">Portfolio</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li className="Navbar-items">
             <a href="#Contact">Contact</a>
