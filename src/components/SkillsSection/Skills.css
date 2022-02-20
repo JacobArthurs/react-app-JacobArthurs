@@ -7,6 +7,16 @@
   width: 100%;
   margin: 0;
   justify-content: center;
+  overflow: hidden;
+}
+
+.skillsBackground {
+  height: 150%;
+  width: auto;
+  top: 50px;
+  position: absolute;
+  background-image: url("../../images/carousel/backgroundwaves.png");
+  background-size: cover;
 }
 
 .skillsTitle {
@@ -24,6 +34,7 @@
 .swiperContainer {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  z-index: 2;
 }
 
 #bottomSwiper {
