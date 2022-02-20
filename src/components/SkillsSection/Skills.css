@@ -11,11 +11,11 @@
 }
 
 .skillsBackground {
-  height: 150%;
+  height: 200%;
   width: auto;
-  top: 50px;
+  top: 100px;
   position: absolute;
-  background-image: url("../../images/carousel/backgroundwaves.png");
+  background-image: url("../../images/carousel/ParallaxWaves.png");
   background-size: cover;
 }
 
