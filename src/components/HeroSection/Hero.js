@@ -45,12 +45,12 @@ const Hero = () => {
               <ul>
                 <li>
                   <a
-                    href="mailto:ArthursJacob01@Gmail.com"
+                    href="mailto:&#065;&#114;&#116;&#104;&#117;&#114;&#115;&#074;&#097;&#099;&#111;&#098;&#048;&#049;&#064;&#071;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                    ArthursJacob01@Gmail.com
+                    &#065;&#114;&#116;&#104;&#117;&#114;&#115;&#074;&#097;&#099;&#111;&#098;&#048;&#049;&#064;&#071;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
                   </a>
                 </li>
                 <li>
