@@ -1,0 +1,146 @@
+#Contact.row {
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#form-blurb {
+  display: inline;
+  position: relative;
+  margin-top: 25px !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  font-weight: 501;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  letter-spacing: -5px;
+  color: #2d3142;
+}
+
+.input-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+
+.form-control {
+  border: 1px solid #bfc0c0 !important;
+  color: #bfc0c0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-control::placeholder {
+  text-align: center;
+}
+
+#submitBtn {
+  width: 100%;
+  height: 34px;
+  background-color: #ef8354;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  border: none;
+}
+
+#personalImg {
+  background-image: url(../../images/contact/JacobArthurs.jpg);
+  background-size: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5%;
+  border: 1px solid #bfc0c0;
+}
+
+@media (min-width: 850px) {
+  #form-container {
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+  }
+  #imgContainer {
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .container {
+    margin-bottom: 80px !important;
+    margin-top: 80px !important;
+  }
+  #personalImg {
+    height: 40vw;
+    width: 40vw;
+  }
+  .overlay {
+    width: 40vw;
+    height: 40vw;
+  }
+  .overlay:hover {
+    opacity: 0.9;
+  }
+  .hiddenText {
+    width: 35vw;
+    font-size: 1.5vw;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 850px) {
+  #imgContainer {
+    width: 100%;
+  }
+  #form-container {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #personalImg {
+    width: 95vw;
+    height: 95vw;
+  }
+  .overlay {
+    width: 95vw;
+    height: 95vw;
+    cursor: pointer;
+  }
+  .overlay.show {
+    opacity: 0.9;
+  }
+  .hiddenText {
+    width: 80vw;
+    font-size: 4vw;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2d3142;
+  overflow: hidden;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5%;
+  transition: 1s ease;
+}
+
+.hiddenText {
+  color: white;
+  height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  user-select: none;
+}
