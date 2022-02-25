@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35f56168b43a0116e64678c3ec5d4234",
+    "revision": "726707cb1269ba93c38d2a530358ba4e",
     "url": "/react-app-JacobArthurs/index.html"
   },
   {
-    "revision": "a91a34d90a1827d3f3f9",
+    "revision": "3ec9ca4bde1b6e092942",
     "url": "/react-app-JacobArthurs/static/css/2.1a9828a8.chunk.css"
   },
   {
-    "revision": "3fc07d80bf3f768eb581",
-    "url": "/react-app-JacobArthurs/static/css/main.a799ed6c.chunk.css"
+    "revision": "85db1ed302bed1a014d9",
+    "url": "/react-app-JacobArthurs/static/css/main.1425fb67.chunk.css"
   },
   {
-    "revision": "a91a34d90a1827d3f3f9",
-    "url": "/react-app-JacobArthurs/static/js/2.35f72c01.chunk.js"
+    "revision": "3ec9ca4bde1b6e092942",
+    "url": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js"
   },
   {
     "revision": "5bc1ad34d21a4712076fda8aff156f45",
-    "url": "/react-app-JacobArthurs/static/js/2.35f72c01.chunk.js.LICENSE.txt"
+    "url": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fc07d80bf3f768eb581",
-    "url": "/react-app-JacobArthurs/static/js/main.a2312a2a.chunk.js"
+    "revision": "85db1ed302bed1a014d9",
+    "url": "/react-app-JacobArthurs/static/js/main.3b6acc5e.chunk.js"
   },
   {
     "revision": "7a8aa2f613fe26cab5b8",
     "url": "/react-app-JacobArthurs/static/js/runtime-main.860b4fa4.js"
+  },
+  {
+    "revision": "db7d4687627299c5f4f88f4f99d60a93",
+    "url": "/react-app-JacobArthurs/static/media/JacobArthurs.db7d4687.jpg"
   },
   {
     "revision": "37cd3153b6057982a6bf850a72fc104e",
@@ -38,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "68795bab63cd0d44124336d3a961fdc2",
     "url": "/react-app-JacobArthurs/static/media/JacobArthursNav.68795bab.png"
+  },
+  {
+    "revision": "61e77e5ec5c0f0cdf15611f5957e475f",
+    "url": "/react-app-JacobArthurs/static/media/JacobArthurs_Resume.61e77e5e.pdf"
+  },
+  {
+    "revision": "358b92bcaaf77a97f3d0dc43bfbb2533",
+    "url": "/react-app-JacobArthurs/static/media/ParallaxWaves.358b92bc.png"
   },
   {
     "revision": "3740c6e534d6e9be81301dba46bab924",
