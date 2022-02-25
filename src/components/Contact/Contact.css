@@ -89,6 +89,10 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+  #form-blurb {
+    font-size: 5rem;
+    letter-spacing: -5px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -116,6 +120,10 @@
     font-size: 4vw;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  #form-blurb {
+    font-size: 4rem;
+    letter-spacing: -4px;
   }
 }
 

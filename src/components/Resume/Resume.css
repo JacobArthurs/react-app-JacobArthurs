@@ -10,8 +10,6 @@
 .resumeContainer a {
   font-weight: 501;
   font-family: "Montserrat", sans-serif;
-  font-size: 5rem;
-  letter-spacing: -5px;
   color: #4f5d75;
   text-decoration: none;
 }
@@ -21,4 +19,18 @@
   filter: drop-shadow(0 0 3px #bfc0c0);
   text-decoration: underline;
   transition: 0.2s ease;
+}
+
+@media (min-width: 850px) {
+  .resumeContainer a {
+    font-size: 5rem;
+    letter-spacing: -5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .resumeContainer a {
+    font-size: 4rem;
+    letter-spacing: -4px;
+  }
 }

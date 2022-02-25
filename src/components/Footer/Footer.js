@@ -7,8 +7,8 @@ import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div className="footerWrapper">
-      <ul className="footerIcons">
-        <li>
+      <div className="footer-icons row">
+        <div className="col">
           <a
             href="mailto:&#065;&#114;&#116;&#104;&#117;&#114;&#115;&#074;&#097;&#099;&#111;&#098;&#048;&#049;&#064;&#071;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
             target="_blank"
@@ -16,8 +16,8 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
           </a>
-        </li>
-        <li>
+        </div>
+        <div className="col">
           <a
             href="https://www.linkedin.com/in/JacobArthurs/"
             target="_blank"
@@ -25,8 +25,8 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
           </a>
-        </li>
-        <li>
+        </div>
+        <div className="col">
           <a
             href="https://github.com/JacobArthurs"
             target="_blank"
@@ -34,8 +34,8 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
       <h1>
         Designed and Developed with&nbsp;
         <FontAwesomeIcon icon={faHeart} style={{ color: `#ff4033` }} />
