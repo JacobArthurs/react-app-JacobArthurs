@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "726707cb1269ba93c38d2a530358ba4e",
+    "revision": "c939492e53d78f514f5d7a6ecc59ceef",
     "url": "/react-app-JacobArthurs/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-app-JacobArthurs/static/css/2.1a9828a8.chunk.css"
   },
   {
-    "revision": "85db1ed302bed1a014d9",
-    "url": "/react-app-JacobArthurs/static/css/main.1425fb67.chunk.css"
+    "revision": "55244a31dde2b125a104",
+    "url": "/react-app-JacobArthurs/static/css/main.06022f9b.chunk.css"
   },
   {
     "revision": "3ec9ca4bde1b6e092942",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85db1ed302bed1a014d9",
+    "revision": "55244a31dde2b125a104",
     "url": "/react-app-JacobArthurs/static/js/main.3b6acc5e.chunk.js"
   },
   {

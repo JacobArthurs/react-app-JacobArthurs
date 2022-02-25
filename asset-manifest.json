@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-app-JacobArthurs/static/css/main.1425fb67.chunk.css",
+    "main.css": "/react-app-JacobArthurs/static/css/main.06022f9b.chunk.css",
     "main.js": "/react-app-JacobArthurs/static/js/main.3b6acc5e.chunk.js",
     "main.js.map": "/react-app-JacobArthurs/static/js/main.3b6acc5e.chunk.js.map",
     "runtime-main.js": "/react-app-JacobArthurs/static/js/runtime-main.860b4fa4.js",
@@ -9,10 +9,10 @@
     "static/js/2.ad4252cc.chunk.js": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js",
     "static/js/2.ad4252cc.chunk.js.map": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js.map",
     "index.html": "/react-app-JacobArthurs/index.html",
-    "precache-manifest.1fc0f673e2c9857a064f3472ee0e1446.js": "/react-app-JacobArthurs/precache-manifest.1fc0f673e2c9857a064f3472ee0e1446.js",
+    "precache-manifest.3accd0842487fecbc48fcc122c256896.js": "/react-app-JacobArthurs/precache-manifest.3accd0842487fecbc48fcc122c256896.js",
     "service-worker.js": "/react-app-JacobArthurs/service-worker.js",
     "static/css/2.1a9828a8.chunk.css.map": "/react-app-JacobArthurs/static/css/2.1a9828a8.chunk.css.map",
-    "static/css/main.1425fb67.chunk.css.map": "/react-app-JacobArthurs/static/css/main.1425fb67.chunk.css.map",
+    "static/css/main.06022f9b.chunk.css.map": "/react-app-JacobArthurs/static/css/main.06022f9b.chunk.css.map",
     "static/js/2.ad4252cc.chunk.js.LICENSE.txt": "/react-app-JacobArthurs/static/js/2.ad4252cc.chunk.js.LICENSE.txt",
     "static/media/Contact.css": "/react-app-JacobArthurs/static/media/JacobArthurs.db7d4687.jpg",
     "static/media/Hero.css": "/react-app-JacobArthurs/static/media/JacobArthursCardBack.94d6c461.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.860b4fa4.js",
     "static/css/2.1a9828a8.chunk.css",
     "static/js/2.ad4252cc.chunk.js",
-    "static/css/main.1425fb67.chunk.css",
+    "static/css/main.06022f9b.chunk.css",
     "static/js/main.3b6acc5e.chunk.js"
   ]
 }
