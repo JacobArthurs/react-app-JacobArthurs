@@ -1,8 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -42,7 +41,7 @@ const Footer = () => {
         <FontAwesomeIcon icon={faHeart} style={{ color: `#ff4033` }} />
         &nbsp;by Jacob using{" "}
         <a href="https://github.com/JacobArthurs/react-app-JacobArthurs">
-          React.js
+          React.js and Node.js
         </a>
         <br />
         Copyright © 2022 Jacob Arthurs. All Rights Reserved.
