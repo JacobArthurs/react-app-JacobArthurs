@@ -18,6 +18,17 @@ if (process.env.NODE_ENV === "production") {
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "/client/build", "index.html"));
   });
+} else {
+  app.use(
+    express.static(
+      "C:/Users/arthu/Desktop/Web/JacobArthurs.com/react-app-jacobarthurs/client/build"
+    )
+  );
+  app.get("*", (req, res) => {
+    res.sendFile(
+      "C:/Users/arthu/Desktop/Web/JacobArthurs.com/react-app-jacobarthurs/client/build/index.html"
+    );
+  });
 }
 
 app.post("/send_mail", cors(), async (req, res) => {
