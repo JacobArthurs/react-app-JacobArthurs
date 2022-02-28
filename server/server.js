@@ -1,6 +1,7 @@
 const PORT = process.env.PORT || 5000;
 const express = require("express");
 const app = express();
+const path = require("path");
 require("dotenv").config();
 
 const bodyParser = require("body-parser");
@@ -11,6 +12,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(cors());
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/../client/build")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "/../client/build", "index.html"));
+  });
+}
 
 app.post("/send_mail", cors(), async (req, res) => {
   let { data } = req.body;
