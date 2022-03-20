@@ -26,13 +26,15 @@ const Contact = () => {
     setEmailError(false);
     setPhoneNoError(false);
     setMessageError(false);
+    setSentError(false);
     setSentErrorMessage(false);
     e.preventDefault();
-    let invalidInput = false;
+    let validInput = true;
     //Validate name input
     if (!name.match(/^[a-zA-Z][a-zA-Z '-]{1,30}$/)) {
-      console.log("invalid name");
-      invalidInput = true;
+      validInput = false;
+      setSentError(true);
+      setSentErrorMessage(true);
       setNameError(true);
     }
     //Validate email input
@@ -48,8 +50,9 @@ const Contact = () => {
       )
     ) {
       setEmailError(true);
-      invalidInput = true;
-      console.log("invalid email");
+      setSentError(true);
+      setSentErrorMessage(true);
+      validInput = false;
     }
     //Validate phone input
     if (phoneNo !== "") {
@@ -58,36 +61,29 @@ const Contact = () => {
           /^(\+\d{1,2}\s?)?1?-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/
         )
       ) {
-        console.log("invalid phone");
-        invalidInput = true;
+        validInput = false;
+        setSentError(true);
+        setSentErrorMessage(true);
         setPhoneNoError(true);
       }
     }
     //Validate message input
     if (!message.match(/^.{1,1000}$/)) {
-      console.log("invalid message");
-      invalidInput = true;
-      setMessageError(true);
-    }
-    if (!invalidInput) {
-      handleSend(e);
-      if (sent === true) {
-        setName("");
-        setEmail("");
-        setPhoneNo("");
-        setMessage("");
-        await delay(5000);
-        setSent(false);
-      } else {
-        setSentError(true);
-        setSentErrorMessage(true);
-        await delay(3000);
-        setSentError(false);
-      }
-    } else {
+      validInput = false;
       setSentError(true);
       setSentErrorMessage(true);
-      await delay(3000);
+      setMessageError(true);
+    }
+    if (validInput) {
+      handleSend(e);
+      setName("");
+      setEmail("");
+      setPhoneNo("");
+      setMessage("");
+      await delay(5000);
+      setSent(false);
+    } else {
+      await delay(5000);
       setSentError(false);
     }
   };
@@ -104,11 +100,10 @@ const Contact = () => {
       await axios.post("/send_mail", {
         data,
       });
-      setSent(true);
-      console.log(sent);
     } catch (error) {
       console.log(error);
     }
+    setSent(true);
   };
 
   return (
