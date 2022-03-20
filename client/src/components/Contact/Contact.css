@@ -152,3 +152,19 @@
   left: 50%;
   user-select: none;
 }
+
+.errorText {
+  display: none;
+}
+
+.errorTextVisible {
+  color: #ef8354;
+}
+
+.sentError {
+  background-color: #ff0033 !important;
+}
+
+.sentSuccess {
+  background-color: #03c197 !important;
+}
