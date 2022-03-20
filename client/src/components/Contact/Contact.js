@@ -80,6 +80,7 @@ const Contact = () => {
       setEmail("");
       setPhoneNo("");
       setMessage("");
+      setSent(true);
       await delay(5000);
       setSent(false);
     } else {
@@ -103,7 +104,6 @@ const Contact = () => {
     } catch (error) {
       console.log(error);
     }
-    setSent(true);
   };
 
   return (
