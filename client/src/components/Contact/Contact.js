@@ -105,6 +105,7 @@ const Contact = () => {
         data,
       });
       setSent(true);
+      console.log(sent);
     } catch (error) {
       console.log(error);
     }
